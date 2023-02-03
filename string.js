@@ -20,5 +20,49 @@
 // console.log(toGatherPart);
 
 
+// স্ট্রিং রিভার্স করা........................
+
+// function reverseString(text){
+// let reverse = '';
+// for(let i = text.length - 1; i>=0; i--){
+//     var element = text[i];
+//     reverse = reverse + element;
+// }
+// return reverse;
+// }
+// var myString = 'I am a good boy';
+// var result = reverseString(myString);
+// console.log(result);
+
+// এবার ওয়ার্ড রিভার্স করবো .................
+
+// var str = 'i am a good boy';
+// function reversed(text){
+//     var reversedResult = '';
+//     var newstr = str.split(' ');
+//     // [ 'i', 'am', 'a', 'good', 'boy' ]
+//     for(let i = newstr.length - 1; i>= 0 ; i--){
+//         let element = newstr[i];
+//         reversedResult = reversedResult + ' ' + element;
+//         // অন্য একটা নিয়মে এরের ভিতর মান পুশ করে join করে দিলেও হবে । 
+//     }
+//     // console.log(newstr);
+//     return reversedResult;
+
+// }
+// var result = reversed(str);
+
+// console.log(result);
+// ফিবনাসি সংখ্যা প্রাক্টিস................
+
+
+
+
+
+
+
+
+
+
 
 

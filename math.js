@@ -8,4 +8,4 @@
 // console.log(Math.round(3.45));
 // console.log(Math.ceil(2.001));
 // console.log(Math.floor(2.99));
-console.log(Math.round(Math.random()*6));
+// console.log(Math.round(Math.random()*6));

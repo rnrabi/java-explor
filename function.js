@@ -97,6 +97,18 @@
 // var mostTallest = findHeight(height);
 // console.log(mostTallest);
 // সব চেয়ে বড় সংখ্যা টি নির্ণয়্ । 
-
+function getLergestNum(songkha){
+  let number = songkha[0]
+  for(let i = 0; i < songkha.length; i++){
+    let element = songkha[i];
+    if(element > number){
+      number = element;
+    }
+  }
+  return number;
+}
+var numbers = [ 120, 251, 351, 562, 457, 351, 720];
+var result = getLergestNum(numbers);
+console.log(result);
 
 
