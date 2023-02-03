@@ -54,8 +54,13 @@
 // console.log(sumArray(NewOddNum));
 
 
-
-
+function temperatureConverter(valNum) {
+    var heat = valNum - 32;
+      var cel = heat / 1.8;
+      return cel;
+    }
+    temperatureConverter(50);
+console.log(temperatureConverter(50));
 
 
 

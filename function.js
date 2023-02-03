@@ -55,10 +55,48 @@
 // }
 
 
+// function stringConcat(str1, str2){
+  
+//     var result = str1 + '' + str2;
+//     return result;
+    
+//   }
+//   var one = 'i am going to be';
+//   var two = 'an awesome web developir';
+//   stringConcat(one , two);
+// console.log(stringConcat(one , two));
+// function JimOrDela (marksOfJim, marksOfDela) {
+    //Write your code here
+    //Must follow lowercase and uppercase
+    //Don't forget to return
+    //
+//       if(marksOfJim > marksOfDela){
+//         return 'Jim';
+//       }
+//       else{
+//         return 'dila';
+//       }
+//     }
+//     JimOrDela(74 , 75);
 
+// console.log(JimOrDela(74, 75));
 
-
-
+// what is wrong. findout me........ok prblm fix. upore akta Ordhek functon lekha cilo
+// function findHeight(numbers){
+//   let tallest = numbers[0];
+//   for( let i = 0; i < numbers.length; i++){
+//     let index = i;
+//     let element = numbers[index];
+//     if(element> tallest){
+//       tallest = element;
+//     }
+//   }
+//   return tallest;
+// };
+// const height = [2100 , 325, 251, 546, 356, 584, 564];
+// var mostTallest = findHeight(height);
+// console.log(mostTallest);
+// সব চেয়ে বড় সংখ্যা টি নির্ণয়্ । 
 
 
 
