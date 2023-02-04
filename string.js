@@ -61,7 +61,11 @@
 
 // console.log(fibo);
 
-
+var test = [20 , 21, 'rabi', 'sabi', {name:"raton", age:25 ,}];
+for(let i = 0; i< test.length; i++){
+    let element = test[i];
+    console.log(element);
+}
 
 
 
