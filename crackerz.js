@@ -86,6 +86,70 @@
 // var result = paperRequirements(10, 20 , 1);
 // console.log(result);
 
+// ২. একদম ফাংশন এর নাম হুবহু centimeterToMeter নাম দিয়ে একটা ফাংশন লিখবে। এই ফাংশনে ইনপুট হিসাবে কেউ সেন্টিমিটার দিবে আর সেই সেন্টিমিটার কে মিটার এ কনভার্ট করে রেজাল্ট রিটার্ন করবে।
+// function centimeterToMeter(centi){
+//     let meterConvert = centi / 100;
+//     let result = meterConvert.toFixed(2);
+//     return result;
+// }
+// var finalResult = centimeterToMeter(250);
+// console.log(finalResult);
+// let car = {
+//     name:'bajaj',
+//     color:'black',
+//     price:100012,
+//     cc:110,
+//     mileg:'height'
+// }
+// delete car['bajaj'];
+// console.log(car);
+// function average(subjects){
+//     let sum = 0;
+//     for(let i = 0; i <subjects.length ; i++){
+//         let element = subjects[i];
+//         sum = sum + element;
+//     }
+//     let totalSum = sum / subjects.length;
+//     return parseFloat(totalSum.toFixed(2));
+// }
+// // let subjectMarks = [75.25, 65, 80, 35.45, 99.50];
+// let subjectMarks = [100, 100, 100, 100, 100];
+// var result = average(subjectMarks);
+// console.log(result);
+
+// কম বয়সি ব্যাক্তি কে আউট পুট হিসাবে দেখাও 
+// let person = [
+//     {name:'raton', age: 50},
+//     {name:'tapon' , age: 10},
+//     {name:'sujon' , age:40},
+//     {name:'naten' , age:70},
+//     {name:'haridash' , age:65},
+//     {name:'goutom' , age:18}
+// ];
+// function younger(testAge){
+//     let smallest = testAge[0];
+//     let smallestAge = testAge[0].age;
+//     for(let i = 0; i < testAge.length; i++){
+//         let element = testAge[i].age;
+//         if(element < smallestAge){
+//             smallest = testAge[i];
+//             smallestAge = element;
+//         }
+//         else{
+//             continue;
+//         }
+//     }
+//     return smallest;
+// }
+// var result = younger(person);
+// console.log(result);
+
+
+
+
+
+
+
 
 
 
