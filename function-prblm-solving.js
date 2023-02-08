@@ -54,13 +54,59 @@
 // console.log(sumArray(NewOddNum));
 
 
-function temperatureConverter(valNum) {
-    var heat = valNum - 32;
-      var cel = heat / 1.8;
-      return cel;
-    }
-    temperatureConverter(50);
-console.log(temperatureConverter(50));
+// function temperatureConverter(valNum) {
+//     var heat = valNum - 32;
+//       var cel = heat / 1.8;
+//       return cel;
+//     }
+//     temperatureConverter(50);
+// console.log(temperatureConverter(50));
+
+// function sum(i){
+//     if(i == 1){
+//         return 1;
+//     }
+//     return i + sum(i-1);
+// }
+
+// const result = sum(6);
+// console.log(result);
+
+
+// function factorial(i){
+    
+//     if(i == 1){
+//         return 1;
+//     }
+//     return i*factorial(i-1);
+// }
+// const result = factorial(5);
+// console.log(result);
+
+
+// const products = [
+//     {name:'nokiya' , price: 5500 , model:'gh6'},
+//     {name:'howai' , price: 500 , model:'This is is startech'},
+//     {name:'walton' , price: 5500 , model:'primo gh6'},
+//     {name:'sampony' , price: 25500 , model:'dotto super maarket'},
+//     {name:'citicel' , price: 5000 , model:'cyti cell is first phn'}
+// ]
+
+// function matchedProducts(products, search){
+//     const matched = [];
+//     for(const product of products){
+//         if(product.model.toLowerCase().includes(search.toLowerCase())){
+//             matched.push(product);
+//         }
+//     }
+//     return matched;
+// }
+// const result = matchedProducts(products , 'cyti');
+// console.log(result);
+
+
+
+
 
 
 
